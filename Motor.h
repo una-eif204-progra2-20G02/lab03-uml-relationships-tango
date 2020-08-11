@@ -9,6 +9,7 @@ class Motor
 private:
 
 	bool estado;
+  
 public:
 	Motor();
 	
