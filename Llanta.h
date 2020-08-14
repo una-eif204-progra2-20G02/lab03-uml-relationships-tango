@@ -3,7 +3,8 @@
 
 using namespace std;
 
-Llanta{
+Llanta
+{
 
 private: 
 

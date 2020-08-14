@@ -1,7 +1,6 @@
-#ifndef PERSON_H
-#define PERSON_H
 
 #include <iostream>
+#include <sstream>
 using namespace std;
 
 
@@ -24,4 +23,3 @@ class Person{
     string toString();
 };
 
-#endif

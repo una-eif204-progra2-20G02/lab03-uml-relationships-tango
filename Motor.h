@@ -1,5 +1,4 @@
-#ifndef MOTOR_H
-#define MOTOR_H
+
 #include<iostream>
 
 using namespace std;
@@ -21,4 +20,3 @@ public:
   ~Motor();
 };
 
-#endif
