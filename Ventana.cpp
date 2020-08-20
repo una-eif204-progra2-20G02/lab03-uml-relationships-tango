@@ -1,3 +1,5 @@
+
+/*
 #include "Ventana.h"
 
 Ventana::Ventana() {
@@ -12,3 +14,4 @@ void Ventana::setPolarizada(bool x) { polarizada = x; }
 bool Ventana::getElectrica() { return electrica; }
 void Ventana::setElectrica(bool x) { electrica = x; }
 bool Ventana::getEstado() { return estado; }
+ */

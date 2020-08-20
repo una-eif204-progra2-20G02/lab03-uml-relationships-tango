@@ -1,21 +1,9 @@
 #include<iostream>
 using namespace std;
-void main(){
+int main()
+{
 
+cout<<"Hola"<<endl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return 0;
 }

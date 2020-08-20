@@ -1,3 +1,5 @@
+/*
+
 #include "Llanta.h"
 #include "Puerta.h"
 #include "Ventana.h"
@@ -38,3 +40,4 @@ public:
 	string toString();
 
 };
+ */

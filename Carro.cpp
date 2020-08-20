@@ -1,3 +1,4 @@
+/*
 #include "Carro.h"
 
 
@@ -119,3 +120,4 @@ carro::~carro() {
 	delete[]vecPuerta;
 	delete[]vecRueda;
 }
+ */

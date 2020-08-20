@@ -1,3 +1,4 @@
+/*
 #ifndef PUERTA_H
 #define PUERTA_H
 
@@ -28,3 +29,4 @@ public:
 
 
 #endif
+ */

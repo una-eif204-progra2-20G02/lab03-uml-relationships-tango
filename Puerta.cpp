@@ -1,3 +1,5 @@
+
+/*
 #include "Puerta.h"
 
 puerta::puerta() {
@@ -15,10 +17,11 @@ puerta::~puerta()
 	delete v;
 	this->v = v;
 }
-*/
+
 bool puerta::getEstado() { return estado; }
 void puerta::abrirPuerta() { estado = true; }
 void puerta::cerrarPuerta() { estado = false; }
 void puerta::abrirVentana() { v->abrir(); }
 void puerta::cerrarVentana() { v->cerrar(); }
 bool puerta::estadoVentana() { return v->getEstado(); }
+ */
