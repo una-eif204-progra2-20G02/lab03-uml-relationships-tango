@@ -1,4 +1,5 @@
-/*
+#ifndef PERSON_H
+#define PERSON_H
 #include <iostream>
 #include <sstream>
 using namespace std;
@@ -8,7 +9,7 @@ class Person{
   protected:
     string nombre;
     string apellido;
-    id edad;
+    int edad;
   public:
     Person(string, string, int);
 
@@ -23,4 +24,4 @@ class Person{
     string toString();
 };
 
-*/
+#endif

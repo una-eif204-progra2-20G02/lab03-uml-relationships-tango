@@ -1,11 +1,7 @@
-
-/*
 #include "Person.h"
 
 
-Person::Person(string nombre, string apellido, int edad):this->nombre(nombre),this->apellido(apellido),this->edad(edad){
-
-}
+Person::Person(string nombre, string apellido, int edad):nombre(nombre),apellido(apellido),edad(edad){}
 
 string Person::getNombre(){
   return nombre;
@@ -36,4 +32,3 @@ string Person::toString(){
   return s.str();
 }
 
- */
