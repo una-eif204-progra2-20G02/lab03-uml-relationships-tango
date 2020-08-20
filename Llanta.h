@@ -1,9 +1,9 @@
-/*
+
 # include <iostream> 
 
 using namespace std;
 
-Llanta
+class Llanta
 {
 
 private: 
@@ -13,7 +13,6 @@ int presion;
 
 public:
 
-Llanta()
+Llanta();
 Llanta(int,int);
 };
- */
