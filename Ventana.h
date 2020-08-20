@@ -1,5 +1,4 @@
 
-/*
 #include <iostream>
 using namespace std;
 
@@ -20,4 +19,3 @@ public:
 	bool getElectrica();
 	void setElectrica(bool);
 };
- */
