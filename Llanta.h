@@ -1,4 +1,4 @@
-
+/*
 # include <iostream> 
 
 using namespace std;
@@ -16,3 +16,4 @@ public:
 Llanta();
 Llanta(int,int);
 };
+*/
