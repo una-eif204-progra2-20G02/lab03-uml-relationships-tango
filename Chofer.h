@@ -1,11 +1,17 @@
+//
+// Created by Steph on 21/8/2020.
+//
 
-#include <iostream>
-using namespace std;
+#ifndef LAB03_UML_RELATIONSHIPS_TANGO_CHOFER_H
+#define LAB03_UML_RELATIONSHIPS_TANGO_CHOFER_H
+
 
 class Chofer{
 
-    Chofer();
 
 
 
-}
+};
+
+
+#endif //LAB03_UML_RELATIONSHIPS_TANGO_CHOFER_H
