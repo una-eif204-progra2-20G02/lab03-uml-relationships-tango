@@ -4,9 +4,6 @@
 
 #include "Chofer.h"
 
-Chofer::Chofer(){
-
-}
-Chofer::Chofer(string _nombre, string _apellido, int _edad):nombre (_nombre), apellido(_apellido), edad(_edad) {
+Chofer::Chofer(string _nombre, string _apellido, int _edad):Person(_nombre, _apellido, _edad){
 
 }

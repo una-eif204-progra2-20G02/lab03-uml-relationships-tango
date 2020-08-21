@@ -7,12 +7,12 @@
 #include <iostream>
 using namespace std;
 #include "Carro.h"
+#include "Person.h"
 class Chofer: public Person{
 private:
-Carro* _carro;
+//Carro* _carro;
 public:
-chofer();
-chofer(string, string, int);
+Chofer(string, string, int);
 
 
 };

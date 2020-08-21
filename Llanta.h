@@ -15,4 +15,5 @@ public:
 
 Llanta();
 Llanta(int,int);
+
 };
