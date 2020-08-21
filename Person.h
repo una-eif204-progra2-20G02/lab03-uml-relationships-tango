@@ -1,6 +1,5 @@
 #ifndef PERSON_H
 #define PERSON_H
-#include <iostream>
 #include <sstream>
 using namespace std;
 
@@ -21,7 +20,7 @@ class Person{
     void setApellido(string);
     void setEdad(int);
 
-    string toString();
+    virtual string toString()=0;
 };
 
 #endif

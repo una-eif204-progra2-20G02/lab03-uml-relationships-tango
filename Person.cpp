@@ -23,12 +23,5 @@ void Person::setEdad(int edad){
   this->edad = edad;
 }
 
-string Person::toString(){
-  stringstream s;
 
-  s<<"Nombre: "<<" "<<nombre<<endl;
-  s<<"Edad: "<<edad<<endl;
-
-  return s.str();
-}
 

@@ -4,6 +4,14 @@
 
 #include "Chofer.h"
 
-Chofer::Chofer(string _nombre, string _apellido, int _edad):Person(_nombre, _apellido, _edad){
+Chofer::Chofer(string nombre, string apellido, int edad): Person(nombre, apellido, edad) {}
 
+string Chofer::toString()
+{
+    stringstream s;
+
+    s<<"Nombre: "<<" "<<this->nombre<<endl;
+    s<<"Edad: "<<this->edad<<endl;
+
+    return s.str();
 }
