@@ -95,10 +95,10 @@ string carro::toString() {
 		s << "Propietario: " << propi->getNombre() << endl;
 	}
 
-	s << "Presion rueda 1: " << vecRueda[0]->getPresion() << endl;
-	s << "Presion rueda 2: " << vecRueda[1]->getPresion() << endl;
-	s << "Presion rueda 3: " << vecRueda[2]->getPresion() << endl;
-	s << "Presion rueda 4: " << vecRueda[3]->getPresion() << endl;
+	s << "Presion llanta 1: " << vecLlanta[0]->getPresion() << endl;
+	s << "Presion llanta 2: " << vecLlanta[1]->getPresion() << endl;
+	s << "Presion llanta 3: " << vecLlanta[2]->getPresion() << endl;
+	s << "Presion llanta 4: " << vecLlanta[3]->getPresion() << endl;
 
 	s << "Puerta 1 abierta: " << vecPuerta[0]->getEstado() << ", Ventana abierta: " << vecPuerta[0]->estadoVentana() << endl;
 	s << "Puerta 2 abierta: " << vecPuerta[1]->getEstado() << ", Ventana abierta: " << vecPuerta[1]->estadoVentana() << endl;
@@ -114,10 +114,10 @@ carro::~carro() {
 	delete m;
 	for (int i = 0; i < 4; i++) {
 		delete vecPuerta[i];
-		delete vecRueda[i];
-		// el carro no es responsable de eliminar al propietario
+		delete vecLlanta[i];
+
 	}
 	delete[]vecPuerta;
-	delete[]vecRueda;
+	delete[]vecLlanta;
 }
  */
