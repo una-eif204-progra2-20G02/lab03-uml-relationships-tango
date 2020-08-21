@@ -4,9 +4,10 @@
 
 #ifndef LAB03_UML_RELATIONSHIPS_TANGO_CHOFER_H
 #define LAB03_UML_RELATIONSHIPS_TANGO_CHOFER_H
+#include <iostream>
+using namespace std;
 
-
-class Chofer{
+class Chofer: public Person{
 
 chofer();
 chofer(string, string, int);
