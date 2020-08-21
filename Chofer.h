@@ -8,7 +8,8 @@
 
 class Chofer{
 
-
+chofer();
+chofer(string, string, int);
 
 
 };
