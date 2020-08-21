@@ -6,9 +6,11 @@
 #define LAB03_UML_RELATIONSHIPS_TANGO_CHOFER_H
 #include <iostream>
 using namespace std;
-
+#include "Carro.h"
 class Chofer: public Person{
-
+private:
+Carro* _carro;
+public:
 chofer();
 chofer(string, string, int);
 
